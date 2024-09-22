@@ -1,0 +1,28 @@
+Lab Task
+Add Your Name:
+
+Enter your name in the input field provided on the webpage.
+Click the "Add Contributor" button to add your name to the contributor list.
+Create a Branch: Each user should create their own branch for their contributions:
+
+bash
+Copy code
+git checkout -b feature/add-your-name
+Make Changes:
+
+You can modify any part of the project (like styles or JavaScript functions) as long as you maintain the functionality of adding names.
+Commit Your Changes: Once you've made your changes, commit them:
+
+bash
+Copy code
+git add .
+git commit -m "Added my name to the contributor list"
+Push Your Branch: Push your branch to the remote repository:
+
+bash
+Copy code
+git push origin feature/add-your-name
+Create a Pull Request: Navigate to the GitHub repository and create a pull request from your branch to the main branch.
+
+Additional Resources
+This project is licensed under the MIT License.

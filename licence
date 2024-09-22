@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-User Contribution Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Multi-User Contribution Lab</h1>
+    <p>This project allows multiple users to contribute by adding their names to the contributor list.</p>
+    
+    <div>
+        <input type="text" id="contributorName" placeholder="Enter your name" />
+        <button id="addContributor">Add Contributor</button>
+    </div>
+    
+    <h2>Contributors:</h2>
+    <ul id="contributorList"></ul>
+    
+    <script src="script.js"></script>
+</body>
+</html>
