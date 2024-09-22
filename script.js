@@ -6,7 +6,7 @@ function loadContributors() {
     contributorList.innerHTML = `
         <li>Muhammad Adnan Sultan</li>
         <li>Example Contributor 2</li>
-        <li>Contributer 3</li>
+        <li>Demo</li>
     `;
 }
 
